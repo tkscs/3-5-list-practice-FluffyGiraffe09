@@ -2,6 +2,8 @@ print("This is question 2")
 
 # Use a loop to print out *another* copy of the letter for every cat
 
+
+
 cats = ["Zoe", "Ella", "Jessie", "Josie"]
 
 form_letter = """
@@ -17,4 +19,4 @@ The Management
 """
 
 for cat in cats:
-  print(f"Dear {cat}," + form_letter)
+  print(f"Hello {cat}," + form_letter)

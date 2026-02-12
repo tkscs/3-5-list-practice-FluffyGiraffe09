@@ -8,11 +8,12 @@ print("This is Question 1")
 my_list = [7, 9, "a", "cat", False]
 print(my_list)
 
+
 # b) Append 3.14 and 7 to the list. Then print my_list
 my_list.append(7)
 my_list.append(3.14)
 print(my_list)
 
 # c) Find and print the index of "cat"
-i = my_list.index("cat")
-print(i)
+
+print(my_list.index("cat"))
